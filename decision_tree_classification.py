@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     # Loading weights
     abs_weights_path = os.path.dirname(__file__)
-    weights_file = "weights_Lizarralde.txt"
+    weights_file = "weights.txt"
     weights_path = os.path.join(abs_weights_path, weights_file)
 
     weights = my_load_weights(weights_path)
