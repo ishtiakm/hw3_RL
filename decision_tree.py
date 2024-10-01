@@ -1,6 +1,6 @@
 import numpy as np
 from scipy import stats
-from decision_tree_node import Node
+from mynode import Node
 
 class DecisionTree:
 
